@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    Ahmad M. Osman - CS 130 Final Project 
+    Personal Website Main Page
+
+    Author: Ahmad M. Osman
+    Date: October 9, 2016
+
+    Filename: index.html
+    -->
+	<meta charset="utf-8" />
+	<title>Main Page - Ahmad M. Osman Personal Website</title>
+	<link href="css/reset.css" rel="stylesheet" />
+	<link href="css/layout.css" rel="stylesheet" />
+	<link href="css/style.css" rel="stylesheet" />
+	<script src="js/ascii.js"></script> 
+</head>
+
+<body>
+   <header>
+       <img src="images/logo.png" alt="Logo" />
+       <pre>			    _    _                         _   __  __      ___                            
+			   / \  | |__  _ __ ___   __ _  __| | |  \/  |    / _ \ ___ _ __ ___   __ _ _ __  
+			  / _ \ | '_ \| '_ ` _ \ / _` |/ _` | | |\/| |   | | | / __| '_ ` _ \ / _` | '_ \ 
+			 / ___ \| | | | | | | | | (_| | (_| | | |  | |   | |_| \__ \ | | | | | (_| | | | |
+			/_/   \_\_| |_|_| |_| |_|\__,_|\__,_| |_|  |_(_)  \___/|___/_| |_| |_|\__,_|_| |_|
+       </pre>
+	   <nav id="navigation">
+	      <ul>
+	         <li><a href="index.html" class="current">Main Page</a></li>
+	         <li><a href="pages/profile.html">Profile</a></li>
+	         <li><a href="pages/experiences.html">Experiences</a></li>
+	         <li><a href="pages/skills.html">Skills</a></li>
+	         <li><a href="pages/projects.html">Projects</a></li>
+	         <li><a href="pages/contact.html">Contact</a></li>
+	      </ul>
+	   </nav>
+   </header>
+   <section id="leftColumn">
+		<article id="content">
+			<h1 class="typed">The Matrix and ASCII Art!</h1>
+			<p class="typed">Welcome to my personal website, it is my pleasure introduce you know my interests, skills and experiences. My name is Ahmad M. Osman, I am from Egypt, and I am a freshman at Luther College majoring in Computer Sicence and Data Science.</p>
+			<br />
+			<p class="typed"><strong>I would like to explain my reasons behind choosing <i>The Matrix</i></strong> as my website theme. It was not til July 2016 that I watched the movie series <i>The Matrix</i>, and as a geek I could not stand the fact that I have not watched this amazing &ndash; and now favorite &ndash; movie til it was the year 2016. For me to fix that I decided that the first project I would work on in college will have it theme evoloving around <strong><i>The Matrix</i></strong>.</p>
+			<br />
+			<p class="typed"><strong>ASCII Art</strong> is one of the main theme features I am including in my personal website too. I believe that ASCII is the easiest <strong><i>humanly</i></strong> way to understand computers on an abstract level; it does not deal with zeros and ones but it simplifies this concept to some extent. All the pictures on my website are in <strong>ASCII Art</strong>. Feel free to google this concept.</p>
+			<br />
+			<p class="typed"><strong>The button</strong> labeled <strong>"<i>ASCII Art Off/On</i>"</strong> is allocated under every picture on the different pages of the website on the right section of the page. Clicking on this button it will turn off the ASCII Art effect and show the original pictures, clicking on it again will turn the ASCII Art effect back on. Feel free to use this feature as it demonstrates the effect.</p>
+		</article>
+   </section>
+   <section id="rightColumn">
+		<article id="picture">
+			<img src="images/personal.png" alt="Ahmad M. Osman Personal Image" id="image" />
+			<button type="button" onclick='changeImage("images/personalOri.jpg");'>ASCII Art Off/On</button>
+		</article>
+   </section>
+	<footer>Ahmad M. Osman &copy; 2016 &ndash; Computer Science and Data Science Major &ndash; Luther College Class of 2020</footer>
+</body>
+</html>

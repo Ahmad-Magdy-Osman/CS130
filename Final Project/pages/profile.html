@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    Ahmad M. Osman - CS 130 Final Project 
+    Personal Website Profile Page
+
+    Author: Ahmad M. Osman
+    Date: October 9, 2016
+
+    Filename: profile.html
+    -->
+	<meta charset="utf-8" />
+	<title>Profile - Ahmad M. Osman Personal Website</title>
+	<link href="../css/reset.css" rel="stylesheet" />
+	<link href="../css/layout.css" rel="stylesheet" />
+	<link href="../css/style.css" rel="stylesheet" />
+	<script src="../js/ascii.js"></script> 
+</head>
+
+<body>
+   <header>
+       <img src="../images/logo.png" alt="Logo" />
+       <pre>			    _    _                         _   __  __      ___                            
+			   / \  | |__  _ __ ___   __ _  __| | |  \/  |    / _ \ ___ _ __ ___   __ _ _ __  
+			  / _ \ | '_ \| '_ ` _ \ / _` |/ _` | | |\/| |   | | | / __| '_ ` _ \ / _` | '_ \ 
+			 / ___ \| | | | | | | | | (_| | (_| | | |  | |   | |_| \__ \ | | | | | (_| | | | |
+			/_/   \_\_| |_|_| |_| |_|\__,_|\__,_| |_|  |_(_)  \___/|___/_| |_| |_|\__,_|_| |_|
+       </pre>
+	   <nav id="navigation">
+	      <ul>
+	         <li><a href="../index.html">Main Page</a></li>
+	         <li><a href="profile.html" class="current">Profile</a></li>
+	         <li><a href="experiences.html">Experiences</a></li>
+	         <li><a href="skills.html">Skills</a></li>
+	         <li><a href="projects.html">Projects</a></li>
+	         <li><a href="contact.html">Contact</a></li>
+	      </ul>
+	   </nav>
+   </header>
+   <section id="leftColumn">
+		<article id="content">
+			<h1 class="typed">About Me</h1>
+			<p class="typed"><strong><i>World Citizen</i> is what I would always call myself.</strong> I come from Egypt but I consider myself a citize of the world. I studied the <i>International Baccalaureate</i> at <strong>United World College Maastricht</strong> in the Netherlands. Currently I am majoring in Computer Science and Data Science at <strong>Luther College</strong> in the United States.</p>
+			<br />
+			<p class="typed">I <strong><i>consider</i></strong> myself a <strong>Software Engineer</strong> through the ongoing programming experiences I have been having since I was 7 years old. I care about code quality and writing neat and optimized code. I enjoy working in teams as I believe it is the best way to maintain good code quality and achieve highly optimized software.</p>
+			<br />
+			<h1 class="type">Details</h1>
+			<ul>
+				<li><strong>Name: </strong>Ahmad M. Osman</li>
+				<li><strong>Date of Birth: </strong>10/28/1995</li>
+				<li><strong>Location: </strong>Decorah, Iowa, United States</li>
+				<li><strong>Hobbies: </strong>Online Games, Weight Lifting and Browsing Reddit</li>
+			</ul>
+		</article>
+   </section>
+   <section id="rightColumn">
+		<article id="picture">
+			<img src="../images/funny.png" alt="Ahmad M. Osman Funny Image" id="image" />
+			<button type="button" onclick='changeImage("../images/funnyOri.jpg");'>ASCII Art Off/On</button>
+		</article>
+   </section>
+	<footer>Ahmad M. Osman &copy; 2016 &ndash; Computer Science and Data Science Major &ndash; Luther College Class of 2020</footer>
+</body>
+</html>

@@ -1,0 +1,22 @@
+/*
+   Cycle Pathology Styles to Reset Style Defaults
+   Author: 
+   Date:   
+
+   Filename: cp_reset.css
+
+*/
+
+/* Display structural elements as blocks */
+
+
+
+
+/* Set the default page element styles  */
+body * {
+	font-family: Verdana, Genea, sans-serif;
+	line-height: 1.2em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}

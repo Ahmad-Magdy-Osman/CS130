@@ -1,0 +1,173 @@
+@charset "UTF-8";
+
+/*
+    Ahmad M. Osman - CS 130 Final Project 
+    Personal Website Styles' CSS File
+   
+   	Ahmad M. Osman's Website Elements' Styles CSS Customization
+
+   	Author: Ahmad M. Osman
+    Date: October 9, 2016
+
+    Filename: styles.css
+*/
+
+/* HTML Styles */
+
+html {
+	background-color: black;
+	font: monospace, Helvetica, sans-serif;
+}
+
+/* Header Styles */
+
+header > pre {
+	color: white;
+}
+
+/* Navigation Styles */
+
+nav#navigation ul {
+	list-style-type: none;
+	padding: 10px;
+}
+
+nav#navigation li {
+	padding: 8px;
+}
+
+nav#navigation a {
+	color: lime;
+	font-size: 1.15em;
+
+	padding: 4px 0px;
+
+	border: 1px;
+	border-color: grey;
+	border-style: dashed;
+
+	text-align: center;
+	text-decoration: none;
+}
+
+nav#navigation a.current {
+	color: white;
+}
+
+nav#navigation a:hover {
+	color: white;
+}
+
+
+nav#navigation a:active {
+	color: silver;
+}
+
+/* Article Styles */
+
+article#content > p {
+  color: lime;
+  padding-left: 2%;
+  line-height: 1.1;
+  font-size: 18px;
+  text-align: justify;
+}
+
+article#picture > img {
+	width: 100%;
+}
+
+/* Lists Styles */
+
+article#content ul {
+	list-style-type: circle;
+}
+
+article#content li {
+	color: lime;
+	margin: 0px 40px;
+	padding: 5px;
+}
+
+article#content a {
+	text-decoration: none;
+	font-size: 18px;
+	color: silver;
+}
+
+article#content a:hover {
+	color: white;
+}
+
+
+article#content a:active {
+	color: silver;
+}
+
+/* Description Lists Styles */
+article#content dl {
+	color: lime;
+	font-size: 18px;
+	display: block;
+	padding-left: 2%;
+}
+
+article#content dt {
+	display: block;
+	font-weight: bold;
+	padding-bottom: 1px;
+	border-bottom: 1px solid grey;
+}
+
+article#content dd {
+	color: lime;
+	display: block;
+	padding-top: 2px;
+	margin: 0 0 1% 2%;
+}
+
+/* Headings Styles */
+
+article#content > h1 {
+	color: silver;
+	font-size: 32px;
+	padding-bottom: 1%;
+}
+
+article#content > h2 {
+	color: silver;
+	font-size: 26px;
+	padding-bottom: 0%;
+}
+
+/* Button Styles */
+
+article#picture > button {
+    color: lime;
+    font-size: 16px;
+	text-align: center;
+    text-decoration: none;
+    border-radius: 12px;
+    border-color: grey;
+	background-color: black;
+}
+
+article#picture > button:focus {
+	outline:0;
+}
+
+article#picture > button:hover {
+    color: white;
+}
+
+article#picture > button:active {
+	color: silver;
+}
+
+/* Footer Styles */
+
+footer {
+	color: silver;
+	font-size: 16px;
+	text-align:center;
+}
